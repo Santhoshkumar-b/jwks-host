@@ -1,1 +1,14 @@
-{"keys": []}
+{
+  "keys": [
+    {
+      "alg": "RS384",
+      "e": "AQAB",
+      "ext": true,
+      "key_ops": ["verify"],
+      "kty": "RSA",
+      "n": "3D6w40-fb4PhFqi6sgJhLtc3l9QGY1tBJBWeYxz3NxN3rgUX8eLehX_EqbGMw_VDfcAstVdN_l9F06aAHzPRZ-FENzqPbAm4yqXOxaIatzdUlV_VDPpvuMVd6W6EG-GL3WjyTNwIlhff3QQpzZsmxxt0eR6GJb-4TGhHIcIB3_Pb-soceHNSSuY_SHsfhD7NGncoStXbRN_42FEAWCQlskwCo6vKWhWUdm55uryHKp2w6h4DAvuNraQf2PMAVevBHC0Q2CIWjMnHJKTumiiL7vzjAnUpZdbz9jH5e9rCV4XhpFpfnZibRLuqmG2WhffQfH-SvRcoS5CFi8iVwOEhoQ",
+      "kid": "my-epic",
+      "use": "sig"
+    }
+  ]
+}
