@@ -1,22 +1,14 @@
 {
-   "keys":[
-      {
-         "alg":"RS384",
-         "d":"Dyk6UULHwLSvXQgcYtgoS2WAQAR6TihkEO2ybSfeM-D0NEOdVUGho5ZBAh1wL5SwuXblECoCmLUJjvxF6MhWT8dMSbIughLe_-7o-griON_eTAphoBuipXcoGCvK4c4bxkLZejWS2rQiUMf3dkU6xeTwwyXfoSxGDvXQn_iahQS6TPtu0vnTbbuuV3UgLuWasDEwxyH4F9Lj3e-9FD5m9xa5NlWhnZZ-5_ejd3XSH6LPu3-DD1emKv8q4s00uTVP-GwYFdKUmp0XEh5h-fvo7TlduOeDy9fCu7UaXgUVESSGLsZyyNPMWImsI1Nt_hGWFcf4WsFOLkrBLsPQZIHIAQ",
-         "dp":"nSu0xIhna99wUWmH9C15-9TdzMwuoYL7o_aWSIrrZyqPlVWswftWm8pOF6bp5js8vH-gOTfVdbM7kQ8n4PU0vsuLkN9u80HLsYFnNjfUfT-Ugtn8gNRIVBwbl4f0x5-qyh0txEL0WyckxROpX36IkpknCqQ7mDrJTIrDt27fCoE",
-         "dq":"PqPYV6PHjuriFmJJgSWlbxwNWgZ7gIq9egm9AbSzmczzXGSl3Wk8BXJpM_Qs34Eveffz245lFd5mhnRMzHttRwXIe-3bntFgSxQLpXAMTh5REo150xmRObC8PGdnvJe6gaL32u28a8bPqjOScEq2Kg-0GozRIsrB5lHigHOSa38",
-         "e":"AQAB",
-         "ext":true,
-         "key_ops":[
-            "sign"
-         ],
-         "kty":"RSA",
-         "n":"ozU2mfLsTIyeLhCLDqf-zcilvZd6OU0hBcr9bcNAvwoYcK-q7XRZB2VzEGsSYGpQqIUm-5Z8lQJzN8BKOHD9_IkV6GM_FeyIsjQuIHTo8kunsPmCoK8LJcCnf6iqHfswSfM0sOf9_kaEv4HcRHyC_aIWiuAoqgu93YODxocAPIbI5dfadxDQZPXFH9NCu2GUal6rUqvJ4hFhhlfGyvkgKKPat2BiVbACVv01GQwXknal4VJ13J4E7mZgPwLyKMnNuWdcf0GYBdplxCv59WElOh55D2bA6x8ACLsH9ANwr8kto1syBBmFpQoVJssCN1FXb8QdgDkVHcSR6NhY6lYiKw",
-         "p":"16GlnUJRpHMHfcMCgEtcYdn4PPncWXaQ6nEDuE0mUBYonGLP4Ornf6-fi9dM53o1lEBbMgRa8RxXKZBaYHsTeD6Ff35Z4w3ThrfanNs-3OoIGvWE-vYWIqIML0lXXhewheRmXfMGBNTMuD--a9X2oKpB58iZQIKDeiaehiGdboE",
-         "q":"wcMdOOZWnlbjV7bTISIRk-BM0uqxMhxSj0TyCZ1MdFc0QCLTc31H0Rl3a2Wv-7kul-xZ5ATjpQirDjtFA8jf_3T-GXmPd9y1Di1kXcJsKv-Xa8xKMiL4xw2LRNsjBzsu4tBBIB-Z2G5uR9XpNcVIX6uwCd7pzIy_7__py7TIUqs",
-         "qi":"Tq1OJxS-xTxcvE628w_HQ0g0KHepsvq7AUZEYEO2QqML4M9xSNc03FcAYPKtfjvK2vpTrwEQPtd5wMYUZU1KRujtvlXJvKMJedEMSMYCub3a6hqm-CdtPlteITygIiJt7Kvfoax9GGQSkvsZ4-uNvwgCf1fNwkQNb8Nk3NK2L1U",
-         "kid":"my-epic",
-         "use":"sig"
-      }
-   ]
+  "keys": [
+    {
+      "alg": "RS384",
+      "e": "AQAB",
+      "ext": true,
+      "key_ops": ["verify"],
+      "kty": "RSA",
+      "n": "ozU2mfLsTIyeLhCLDqf-zcilvZd6OU0hBcr9bcNAvwoYcK-q7XRZB2VzEGsSYGpQqIUm-5Z8lQJzN8BKOHD9_IkV6GM_FeyIsjQuIHTo8kunsPmCoK8LJcCnf6iqHfswSfM0sOf9_kaEv4HcRHyC_aIWiuAoqgu93YODxocAPIbI5dfadxDQZPXFH9NCu2GUal6rUqvJ4hFhhlfGyvkgKKPat2BiVbACVv01GQwXknal4VJ13J4E7mZgPwLyKMnNuWdcf0GYBdplxCv59WElOh55D2bA6x8ACLsH9ANwr8kto1syBBmFpQoVJssCN1FXb8QdgDkVHcSR6NhY6lYiKw",
+      "kid": "my-epic",
+      "use": "sig"
+    }
+  ]
 }
